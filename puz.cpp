@@ -3,6 +3,12 @@
 #include <vector>
 #include <algorithm>
 
+// сортировка методом пузырька, по возрастанию
+// see std::sort(c++) quicksort(c) for reference
+// 
+// 1 2 3 
+// 3 1 2
+// 3 2 1
 
 void ResPrintf(const std::vector<int>& _v);
 
